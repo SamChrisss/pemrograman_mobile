@@ -7,21 +7,21 @@ class Dashboard extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/sam.jpg'), // Lokasi gambar
-            fit: BoxFit.cover, // Mengatur gambar agar sesuai dengan layar
+            image: AssetImage('assets/images/sam.jpg'), 
+            fit: BoxFit.cover, 
           ),
         ),
         child: Center(
           child: Text(
             'Samuel Bintang \nChristoper Silaen\n\nNIM: 221402131',
-            textAlign: TextAlign.center, // Rata tengah teks
+            textAlign: TextAlign.center, 
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
-              color: Colors.black, // Warna teks
+              color: Colors.black, 
               shadows: [
                 Shadow(
-                  blurRadius: 10.0, // Efek bayangan pada teks
+                  blurRadius: 10.0, 
                   color: Colors.black,
                   offset: Offset(2.0, 2.0),
                 ),

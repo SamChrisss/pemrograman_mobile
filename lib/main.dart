@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        //scaffoldBackgroundColor: const Color(0xFF277BC0),
+        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Dashboard(), // Change to the correct class name
+      home: Dashboard(), 
     );
   }
 }
